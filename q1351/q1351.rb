@@ -1,8 +1,8 @@
 require 'benchmark'
 def cnt
-(2..300).each do |x|
-  (2..300).each do |y|
-    (2..300).each do |z|
+(2..75).each do |x|
+  (2..75).each do |y|
+    (2..75).each do |z|
       puts "#{x} #{y} #{z} #{x*y*z}" if x*y*z <= 300
     end
   end
